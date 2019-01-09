@@ -3,13 +3,10 @@
     padding: 0;
 }
 
-:root {
-    --color1: #c3c3cc;
-    --color2: #b93f52;
-    --color3: #d29faa;
-    --color4: #050209;
-    --color5: #853f53;
-}
+
+/* colors
+     #c3c3cc #b93f52 #d29faa #050209 #853f53*/
+
 
 h2 {
     font-size: 5vw;
@@ -18,6 +15,7 @@ h2 {
 }
 
 html {
+
     background-image: linear-gradient(to left, #853f53, #d29faa);
 }
 
@@ -77,9 +75,7 @@ object {
     font-size: 2vw;
 }
 
-.dropdown-content a:firstchild {
-    padding-top: 1vw;
-}
+
 
 /*------------------ Burgermenu -------------------*/
 
@@ -90,7 +86,7 @@ object {
     background-color: #853f53;
     width: 20vw;
     height: 15vw;
-    border-bottom-left-radius 50px;
+
     border-bottom-right-radius: 50px;
     cursor: pointer;
 }
@@ -130,7 +126,7 @@ a p:hover {
 }
 
 .blackbox:active {
-    background-color: red;
+    background-color: #b93f52;
 }
 
 
@@ -189,7 +185,6 @@ header {
 #temamenu {}
 
 .tema1 {
-    padding: ;
     width: 40vw;
 }
 
@@ -221,9 +216,8 @@ header {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: ;
-    color: black;
 
+    color: black;
     font-size: 16px;
     border: none;
 }
@@ -422,7 +416,7 @@ a:hover {
     }
 
     h2 {
-        font-size: vw;
+        font-size: 8vw;
     }
 
     video {
@@ -433,10 +427,7 @@ a:hover {
         padding: 2vw;
     }
 
-    .tema1 {
 
-        width: 89wv;
-    }
 
     .tematxt {
         width: 70vw;
@@ -529,7 +520,7 @@ a:hover {
     }
 
     .dropdown {
-        position: flex;
+
         top: -1vw;
     }
 
