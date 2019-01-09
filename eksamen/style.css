@@ -3,13 +3,22 @@
     padding: 0;
 }
 
+:root {
+    --color1: #c3c3cc;
+    --color2: #b93f52;
+    --color3: #d29faa;
+    --color4: #050209;
+    --color5: #853f53;
+}
+
 h2 {
     font-size: 5vw;
+    font-family: 'Coiny', cursive;
 
 }
 
 html {
-    background-color: #8787d0;
+    background-image: linear-gradient(to left, #853f53, #d29faa);
 }
 
 a {
@@ -26,7 +35,8 @@ img {
 
 p {
     font-size: 0.9rem;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 h1 {
@@ -34,6 +44,7 @@ h1 {
     font-size: 75px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Coiny', cursive;
 }
 
 
@@ -66,13 +77,17 @@ object {
     font-size: 2vw;
 }
 
+.dropdown-content a:firstchild {
+    padding-top: 1vw;
+}
+
 /*------------------ Burgermenu -------------------*/
 
 .hbutton {
     display: block;
     z-index: 5;
     position: fixed;
-    background-color: red;
+    background-color: #853f53;
     width: 20vw;
     height: 15vw;
     border-bottom-left-radius 50px;
@@ -97,7 +112,7 @@ object {
     top: 0;
     width: 20vw;
     height: 75vw;
-    background-color: red;
+    background-image: linear-gradient(to bottom, #853f53, #d29faa);
     border-bottom-right-radius: 50px;
     cursor: pointer;
     z-index: 100;
@@ -111,7 +126,7 @@ a:hover {
 
 .blackbox,
 a p:hover {
-    color: blue;
+    color: #b93f52;
 }
 
 .blackbox:active {
@@ -245,17 +260,26 @@ header {
     display: block;
 }
 
+.dropdown-content a:first-child {
+    margin-top: 1vw;
+}
+
+a:hover {
+    color: red;
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: red;
+    background-color: #b93f52;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    background-color: #d29faa;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+
 .dropdown:hover .dropbtn {
     background-color: black;
 }
@@ -267,7 +291,7 @@ header {
 #wrapperb {
     max-width: 100vw;
     height: 200vw;
-    background-color: #8787d0;
+
     padding-top: 5vw;
 }
 
@@ -277,6 +301,14 @@ header {
     margin-right: auto;
     width: 50vw;
     transform: rotate(270deg);
+    display: flex;
+}
+
+.doku2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+
     display: flex;
 }
 
@@ -370,7 +402,24 @@ header {
 /*----------------------------------------- @media -----------------------------------------*/
 @media only screen and (max-width:900px) {
 
+    .box {
+        width: 75vw;
+    }
 
+    .tema1 {
+        width: 75vw;
+    }
+
+    /***--Video buen--***/
+    .video-frame {
+        width: 75vw;
+    }
+
+
+
+    .video-frame {
+        max-height: 75vw;
+    }
 
     h2 {
         font-size: vw;
@@ -380,7 +429,9 @@ header {
         width: 100%;
     }
 
-
+    p {
+        padding: 2vw;
+    }
 
     .tema1 {
 

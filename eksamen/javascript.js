@@ -1,4 +1,4 @@
-const videos = document.querySelectorAll("video");
+let videos = document.querySelectorAll("video");
 
 videos.forEach(video => {
     video.addEventListener("mouseover", function () {
