@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bagom</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="hbutton" onclick="openSidebar()">
+
+            <div class="mb"></div>
+            <div class="mb"></div>
+            <div class="mb"></div>
+        </div>
+
+        <nav id="burgermenu" class="menu_frem">
+            <div class="a2">
+                <span onclick="closeSidebar()" class="x">
+                    X
+                </span>
+            </div>
+
+            <a class="blackbox" href="index.html">
+                <p class="menutxt">Forside</p>
+            </a>
+
+            <a class="blackbox" href="bagom.html">
+                <p class="menutxt">Bagom</p>
+            </a>
+            <a class="blackbox" href="om.html">
+
+                <p class="menutxt">Om</p>
+            </a>
+            <div class="dropdown">
+                <a class="blackbox dropbtn" id="temamenu" onclick="temapop()">
+
+                    <p class="menutxt">Tema</p>
+                </a>
+                <div class="dropdown-content">
+                    <a href="tema1.html">tema 1</a>
+                    <a href="tema2.html">tema 2</a>
+                    <a href="tema3.html">tema 3</a>
+                    <a href="tema4.html">tema 4</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="wrapperb">
+        <h1>Tema 4</h1>
+        <div class="box">
+            <a href="https://xd.adobe.com/view/dcfc581f-979b-4abe-74ac-e486ca732e2a-aacd/?fullscreen" target="_blank">
+                <h2>1. App</h2>
+            </a>
+            <div class="video-frame">
+                <video class="tema1" src="video/app1.mp4" preload></video>
+            </div>
+        </div>
+        <div class="temaheadline">
+            <h2>Design sprint</h2>
+        </div>
+        <div class="tematxt">
+            <p>I tema 4 skulle vi fokusere på brugerne og den vej igennem skræddersy en passende app løsning efter behov. Jeg valgte ikke at bruge UI Kits, da jeg ville prøve at bruge XDs eget set up. Jeg valgte siden at bruge UI kits.</p>
+
+        </div>
+
+
+
+
+        <div class="box">
+            <a href="http://home8.dk/kea/04-ux/04_03_01web/?2">
+                <h2>2. App</h2>
+            </a>
+            <div class="video-frame">
+                <video class="tema1" src="video/app.mp4" preload></video>
+            </div>
+
+
+        </div>
+
+        <div class="box">
+            <a href="https://xd.adobe.com/view/83352dc5-afb7-41f9-6353-38c3e7c94575-f504/?fullscreen" target="_blank">
+                <h2>Tema 4 UX</h2>
+            </a>
+            <div class="video-frame">
+                <video class="tema1" src="video/mobilapp.mp4" preload></video>
+            </div>
+
+        </div>
+        <div class="temaheadline">
+            <h2>Lorem ipsum</h2>
+        </div>
+        <div class="tematxt">
+            I denne gruppeopgave skulle vi ud fra brugerundersøgelser finde problematikker på kea og producere en app løsning. Vi valgte at lave en app for Tech Loungens, hovr man har mulighed for at låne udstyr på sin telefon.
+        </div>
+        <div class="pdfbox">
+            <div class="temaheadline">
+                <h2>Dokumentation</h2>
+            </div>
+            <object class="center" id="moodboardtema1" data="img/04_04_02_temadokumentation_ChristianLüdersWeile.pdf" type="application/pdf">
+
+            </object>
+        </div>
+    </div>
+</body>
+<script src="javascript.js"></script>
+
+</html>

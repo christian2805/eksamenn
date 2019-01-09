@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bagom</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="hbutton" onclick="openSidebar()">
+
+            <div class="mb"></div>
+            <div class="mb"></div>
+            <div class="mb"></div>
+        </div>
+
+        <nav id="burgermenu" class="menu_frem">
+            <div class="a2">
+                <span onclick="closeSidebar()" class="x">
+                    X
+                </span>
+            </div>
+
+            <a class="blackbox" href="index.html">
+                <p class="menutxt">Forside</p>
+            </a>
+
+            <a class="blackbox" href="bagom.html">
+                <p class="menutxt">Bagom</p>
+            </a>
+            <a class="blackbox" href="om.html">
+
+                <p class="menutxt">Om</p>
+            </a>
+            <div class="dropdown">
+                <a class="blackbox dropbtn" id="temamenu" onclick="temapop()">
+
+                    <p class="menutxt">Tema</p>
+                </a>
+                <div class="dropdown-content">
+                    <a href="tema1.html">tema 1</a>
+                    <a href="tema2.html">tema 2</a>
+                    <a href="tema3.html">tema 3</a>
+                    <a href="tema4.html">tema 4</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="wrapperb">
+        <h1>Tema 2</h1>
+
+        <div class="box">
+            <a href="/video/tema2pilot.mp4" target="_blank">
+                <h2>Pilot video</h2>
+            </a>
+            <div class="video-frame">
+                <video class="tema1" muted src="video/tema2pilot.mp4" preload></video>
+            </div>
+
+
+        </div>
+        <div class="tematxt">
+            <div class="temaheadline">
+                <h2>Pilot video</h2>
+            </div>
+            <p>Fokuset med pilot projecktet var historiefortælling basal klipning med B-rolls. Efter og interview tips og metoder. Videoen skulle vise en person fortælle om deres passion, hvilket krydre den op med lidt entusiasme. </p>
+        </div>
+
+        <div class="box">
+            <a href="http://home8.dk/kea/02-content/02-redesign/02_02_06_redesign/index.html" target="_blank">
+
+                <h2>Tema 2 AFC Spartans</h2>
+            </a>
+            <div class="video-frame">
+                <video alt="AFC Spartans" class="tema1" src="video/spartans.mp4" preload></video>
+            </div>
+
+        </div>
+        <div class="tematxt">
+            <div class="temaheadline">
+                <h2>Redesign</h2>
+            </div>
+            <p>I denne gruppeopgave skabte vi en redesignet version af et ekisterende website. AFC Spartans fik et nyt lysere look på baggrund af brugerundersøgelser. Fokuset i redesignet og helevejen gennem videoen prosessen var, blandandet at lave et produkt der visuelt råber fodboldt og samtidigt fanger interessen hos målgruppen.
+            </p>
+        </div>
+
+    </div>
+</body>
+<script src="javascript.js"></script>
+
+</html>

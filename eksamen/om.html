@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forside</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="hbutton" onclick="openSidebar()">
+
+            <div class="mb"></div>
+            <div class="mb"></div>
+            <div class="mb"></div>
+        </div>
+
+        <nav id="burgermenu" class="menu_frem">
+            <div class="a2">
+                <span onclick="closeSidebar()" class="x">
+                    X
+                </span>
+            </div>
+
+            <a class="blackbox" href="index.html">
+                <p class="menutxt">Forside</p>
+            </a>
+
+            <a class="blackbox" href="bagom.html">
+                <p class=menutxt>Bagom</p>
+            </a>
+            <a class="blackbox" href="om.html">
+
+                <p class="menutxt">Om</p>
+            </a>
+            <div class="dropdown">
+                <a class="blackbox dropbtn" id="temamenu" onclick="temapop()">
+
+                    <p class="menutxt">Tema</p>
+                </a>
+                <div class="dropdown-content">
+                    <a href="http://home8.dk/kea/01-web/04-responsive/01_04_02_responsive_v2/?1337" target="_blank">tema 1</a>
+                    <a href="tema2.html">tema 2</a>
+                    <a href="tema3.html">tema 3</a>
+                    <a href="tema4.html">tema 4</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <div class="box">
+            <p>Mit navn er christian og jeg er 25 år gammel og smadder sød. Jeg kan godt lide at se film og lave film både privat og i skoletiden. Jeg går på kea multimediedisigner linjen, og har i min gymnasie tid haft mediefag, samt været på mediehøjskole. </p>
+
+        </div>
+
+
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bagom</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="hbutton" onclick="openSidebar()">
+
+            <div class="mb"></div>
+            <div class="mb"></div>
+            <div class="mb"></div>
+        </div>
+
+        <nav id="burgermenu" class="menu_frem">
+            <div class="a2">
+                <span onclick="closeSidebar()" class="x">
+                    X
+                </span>
+            </div>
+
+            <a class="blackbox" href="index.html">
+                <p class="menutxt">Forside</p>
+            </a>
+
+            <a class="blackbox" href="bagom.html">
+                <p class="menutxt">Bagom</p>
+            </a>
+            <a class="blackbox" href="om.html">
+
+                <p class="menutxt">Om</p>
+            </a>
+            <div class="dropdown">
+                <a class="blackbox dropbtn" id="temamenu" onclick="temapop()">
+
+                    <p class="menutxt">Tema</p>
+                </a>
+                <div class="dropdown-content">
+                    <a href="tema1.html">tema 1</a>
+                    <a href="tema2.html">tema 2</a>
+                    <a href="tema3.html">tema 3</a>
+                    <a href="tema4.html">tema 4</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="wrapperb">
+        <h1>Tema 3</h1>
+        <div class="vidogtxtbox">
+            <div class="box">
+                <a href="tema3.html">
+                    <h2>Tema 3 Animation</h2>
+                </a>
+                <div class="video-frame">
+                    <video class="tema1" src="video/poospil.mp4" preload></video>
+                </div>
+
+            </div>
+
+
+            <div class="temaheadline">
+                <h2>Catch The Poop</h2>
+            </div>
+            <div class="tematxt">
+                <p>Forløbet gik med at lære at bruge former og farver til at skabe en scene med figuere og objekter som medvirker i spillet. Vi animerede figuerne med css og lavede resten af siden med html og javascript.
+                    På baggrund af begrænsningerne for opgaven var resultatet bundet til at være minimalistisk, hvilket hjalp mod at jeg i designfasen valgte temaet lort for spillet. Jeg brugte blandt andet de bløde former til lorten, da det skulle være vores hovedperson. Og rottens spidse form i både øjne og krop, gør ham til skurken.</p>
+            </div>
+        </div>
+        <div class="vidogtxtbox">
+            <div class="box">
+                <a href="http://silleagerskovdesign.com/kea/03-animation/03_05_spil/" target="_blank">
+                    <h2>Sex og samfund</h2>
+                </a>
+                <!--        doku sex&samfund--        http://silleagerskovdesign.com/kea/03-animation/03_05_01_gruppe-19_dokumentationssite/#aktivitets_diagram-->
+
+                <div class="video-frame">
+                    <video class="tema1" muted src="video/sexspilogsamfspil.mp4" preload></video>
+                </div>
+            </div>
+            <div class="temaheadline">
+                <h2>Ved du hvor grænsen går?</h2>
+            </div>
+            <div class="tematxt">
+                <p>I denne opgave skulle vi for sex og samfund lave et spil der berørte, billededeling på nettet. vi arbejdede ud fra sex og samfunds under side, privat snaks egen farve palette Vi brugte skygge på hånden der holder mobilen, men ikke på billederne, for at sætte den i et lag for sig selv. </p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+<script src="javascript.js"></script>
+
+</html>

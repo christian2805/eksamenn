@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 5vw;
+
+}
+
+html {
+    background-color: #8787d0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.x {
+    cursor: pointer;
+}
+
+p {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.splash {
+    margin-top: -5vw;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+
+
+object {
+    display: flex;
+    padding-top: 5vw;
+    width: 100%;
+    height: 60vw;
+}
+
+.pdfbox {
+
+    height: 100vw;
+}
+
+.temaheadline h2 {
+    font-size: 2vw;
+}
+
+/*------------------ Burgermenu -------------------*/
+
+.hbutton {
+    display: block;
+    z-index: 5;
+    position: fixed;
+    background-color: red;
+    width: 20vw;
+    height: 15vw;
+    border-bottom-left-radius 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+}
+
+.mb {
+    width: 10vw;
+    height: 1vw;
+    background-color: black;
+    margin: 2vw 0 0 3vw;
+    border-radius: 10vw;
+
+}
+
+
+#burgermenu {
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20vw;
+    height: 75vw;
+    background-color: red;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+    z-index: 100;
+
+}
+
+
+a:hover {
+    color: blue;
+}
+
+.blackbox,
+a p:hover {
+    color: blue;
+}
+
+.blackbox:active {
+    background-color: red;
+}
+
+
+.blackbox {
+    text-align: center;
+    margin: 6vw 0vw;
+    width: 18vw;
+    height: 11vw;
+    background-color: rgba(0, 0, 0, 0.79);
+    text-decoration: none;
+    display: block;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.a2 {
+    padding: 1vw;
+    float: right;
+}
+
+.menutxt {
+    padding-top: 4vw;
+    text-align: center;
+
+    color: white;
+}
+
+header {
+
+    position: relative;
+
+}
+
+#wrapper {
+    max-width: 400vw;
+    max-height: 100vw;
+
+
+}
+
+
+.box {
+
+    width: 40vw;
+    min-height: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    border-radius: 50px;
+    text-align: center;
+
+
+}
+
+#temamenu {}
+
+.tema1 {
+    padding: ;
+    width: 40vw;
+}
+
+/***--Video buen--***/
+.video-frame {
+    max-height: 35vw;
+    border-radius: 50px;
+    width: 40vw;
+    overflow: hidden;
+    border: 1vw;
+    border-color: azure;
+
+}
+
+.tematxt {
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.temaheadline {
+    text-align: center;
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: ;
+    color: black;
+
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    top: -5vw;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 18vw;
+    height: 11vw;
+
+    z-index: 10;
+    top: 6vw;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+/*--------------tema1----------------------*/
+#moodboardtema1 {}
+
+/* --------------------Bag om siden------------------------- */
+#wrapperb {
+    max-width: 100vw;
+    height: 200vw;
+    background-color: #8787d0;
+    padding-top: 5vw;
+}
+
+
+.doku {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    transform: rotate(270deg);
+    display: flex;
+}
+
+.txt1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 67vw;
+    text-align: left;
+}
+
+/*------------@keyframes ---------------*/
+
+.flip_page {
+    animation-name: flip_page;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes flip_page {
+    0% {
+        transform: rotateY(0deg)
+    }
+
+    100% {
+        transform: rotatey(360deg);
+    }
+}
+
+.menu_tilbage {
+    animation-name: menu_tilbage;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+@keyframes menu_tilbage {
+    0% {
+        opacity: 1;
+    }
+
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        transform: translatey(2vw);
+    }
+
+    100% {
+        transform: translateY(-19vw);
+    }
+}
+
+
+.menu_frem {
+    animation-name: menu_frem;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+@keyframes menu_frem {
+    0% {
+        opacity: 0;
+        transform: translateY(-15vw);
+    }
+
+    25% {}
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        transform: translatey(2vw)
+    }
+
+    100% {
+        transform: translateY(1vw);
+    }
+}
+
+/*----------------------------------------- @media -----------------------------------------*/
+@media only screen and (max-width:900px) {
+
+
+
+    h2 {
+        font-size: vw;
+    }
+
+    video {
+        width: 100%;
+    }
+
+
+
+    .tema1 {
+
+        width: 89wv;
+    }
+
+    .tematxt {
+        width: 70vw;
+    }
+
+    .video-frame {
+        width: 100%;
+        height: 100%;
+    }
+
+    .temaheadline h2 {
+        font-size: 5vw;
+    }
+
+    .hbutton {
+        position: fixed;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .dropdown-content {
+        position: fixed;
+        top: 31vw;
+        height: 7vw;
+        min-width: 13vw;
+
+    }
+
+    .vidogtxtbox {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 100vw;
+        flex-basis: 45vw;
+
+    }
+
+
+    p {
+        padding: 4vw;
+    }
+
+    .hbutton {
+        height: 12vw;
+        width: 15vw;
+    }
+
+    #burgermenu {
+        width: 15vw;
+        height: 40vw;
+    }
+
+    .blackbox {
+        width: 15vw;
+        height: 7vw;
+        margin: 2.5vw 0 1vw 0vw;
+    }
+
+
+
+
+    #wrapper {
+
+        max-width: 100vw;
+        height: 100vw;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        flex-wrap: wrap;
+
+    }
+
+    .blackbox {
+        width: 13vw;
+    }
+
+    .sek1 {
+        display: flex;
+        margin-bottom: -39vw;
+    }
+
+    .x {
+        position: absolute;
+        top: 0;
+        left: 13vw;
+    }
+
+    .dropdown {
+        position: flex;
+        top: -1vw;
+    }
+
+
+}
