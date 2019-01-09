@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Roboto" rel="stylesheet">
+    <title>Bagom</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div class="hbutton" onclick="openSidebar()">
+
+            <div class="mb"></div>
+            <div class="mb"></div>
+            <div class="mb"></div>
+        </div>
+
+        <nav id="burgermenu" class="menu_frem">
+            <div class="a2">
+                <span onclick="closeSidebar()" class="x">
+                    X
+                </span>
+            </div>
+
+            <a class="blackbox" href="index.html">
+                <p class="menutxt">Forside</p>
+            </a>
+
+            <a class="blackbox" href="bagom.html">
+                <p class="menutxt">Bagom</p>
+            </a>
+            <a class="blackbox" href="om.html">
+
+                <p class="menutxt">Om</p>
+            </a>
+            <div class="dropdown">
+                <a class="blackbox dropbtn" id="temamenu" onclick="temapop()">
+
+                    <p class="menutxt">Tema</p>
+                </a>
+                <div class="dropdown-content">
+                    <a href="tema1.html">Tema 1</a>
+                    <a href="tema2.html">Tema 2</a>
+                    <a href="tema3.html">Tema 3</a>
+                    <a href="tema4.html">Tema 4</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="wrapperb">
+        <img class="doku" alt="dokumentations skitse" src="/img/skitsereksamen.jpg">
+        <div class="txt1">
+            <p>En portfolie side som er nem og hurtig at få et overblik over, både på mobil og desktop. Farvepalette fik jeg fra Splashbillede</p>
+        </div>
+        <img class="doku2" src="img/bagom.jpg" alt="moodboard">
+
+    </div>
+</body>
+<script src="javascript.js"></script>
+
+</html>

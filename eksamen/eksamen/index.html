@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Roboto" rel="stylesheet">
+
+    <title>Forside</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div class="hbutton" onclick="openSidebar()">
+
+            <div class="mb"></div>
+            <div class="mb"></div>
+            <div class="mb"></div>
+        </div>
+
+        <nav id="burgermenu" class="menu_frem">
+            <div class="a2">
+                <span onclick="closeSidebar()" class="x">
+                    X
+                </span>
+            </div>
+
+            <a class="blackbox" href="index.html">
+                <p class="menutxt">Forside</p>
+            </a>
+
+            <a class="blackbox" href="bagom.html">
+                <p class="menutxt">Bagom</p>
+            </a>
+            <a class="blackbox" href="om.html">
+
+                <p class="menutxt">Om</p>
+            </a>
+            <div class="dropdown">
+                <a class="blackbox dropbtn" id="temamenu" onclick="temapop()">
+
+                    <p class="menutxt">Tema</p>
+                </a>
+                <div class="dropdown-content">
+                    <a href="tema1.html">Tema 1</a>
+                    <a href="tema2.html">Tema 2</a>
+                    <a href="tema3.html">Tema 3</a>
+                    <a href="tema4.html">Tema 4</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <div class="splash"><img src="img/splash.jpg" alt="Mit fjæs da eksamen startede"></div>
+        <h1>Forside</h1>
+        <div class="sek1">
+            <div class="vidogtxtbox">
+                <div class="box">
+                    <a href="http://home8.dk/kea/01-web/04-responsive/01_04_02_responsive_v2/?1337" target="_blank">
+                        <h2>Tema 1 html</h2>
+                    </a>
+                    <div class="video-frame">
+
+                        <video class="tema1" src="video/pomo.mp4" preload></video>
+                    </div>
+
+
+                </div>
+
+                <div class="temaheadline">
+                    <h2>Responsivt site</h2>
+                </div>
+                <div class="tematxt">
+                    <p>I tema 1 lærte vi om forskellige stilarter, kompositioner, digitale layouts og responsiv CSS/HTML. Jeg valgte en humoristisk vinkel på opgaven, da jeg havde svært ved at forholde mig til postmodernisme. Det gjorde jeg med nogle vilde border farver og splash-billeder. </p>
+                </div>
+            </div>
+
+            <div class="vidogtxtbox">
+                <div class="box">
+                    <a href="tema2.html">
+
+                        <h2>Tema 2 video</h2>
+                    </a>
+                    <div class="video-frame">
+                        <video class="tema1" src="video/spartans.mp4" preload></video>
+                    </div>
+
+
+                </div>
+
+
+                <div class="tematxt">
+                    <div class="temaheadline">
+                        <h2>Redesign</h2>
+                    </div>
+                    <p>I denne gruppeopgave skabte vi en redesignet version af et eksisterende website. AFC Spartans fik et nyt, lysere look på baggrund af en 5 sekunders test, og Bert tests af det tidligere site. Fokusset i redesignet og hele vejen igennem processen med videoen, var blandt andet at lave et produkt der visuelt råber “fodbold” og samtidig fanger interessen hos den valgte målgruppen.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sek1">
+            <div class="vidogtxtbox">
+                <div class="box">
+                    <a href="tema3.html">
+                        <h2>Tema 3</h2>
+                    </a>
+                    <div class="video-frame">
+                        <video class="tema1" src="video/poospil.mp4" preload></video>
+                    </div>
+
+                </div>
+
+
+                <div class="temaheadline">
+                    <h2>Animation</h2>
+                </div>
+                <div class="tematxt">
+                    <p>Forløbet gik med at lære at bruge former og farver til at skabe en scene med figuere og objekter som medvirker i spillet. Vi animerede figuerne med css og lavede resten af siden med html og javascript.
+                        På baggrund af begrænsningerne for opgaven var resultatet bundet til at være minimalistisk, hvilket hjalp mod at jeg i designfasen valgte temaet lort for spillet. Jeg brugte blandt andet de bløde former til lorten, da det skulle være vores hovedperson. Og rottens spidse form i både øjne og krop, gør ham til skurken.</p>
+                </div>
+            </div>
+            <div class="vidogtxtbox">
+
+                <div class="box">
+                    <a href="tema4.html">
+                        <h2 class="">Tema 4 UX</h2>
+                    </a>
+                    <div class="video-frame">
+                        <video class="tema1" src="video/mobilapp.mp4" preload></video>
+                    </div>
+
+                </div>
+
+                <div class="temaheadline">
+                    <h2>UX</h2>
+                </div>
+
+                <div class="tematxt">
+                    <p>I denne gruppeopgave skulle vi ud fra brugerundersøgelser finde problematikker på KEA og producere en app-løsning. Vi valgte at lave en app for Tech Loungen, hvor man fik mulighed for at låne udstyr på sin telefon, det var blandt andet vores løsning på udlejningskøer og papirarbejde.</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+
+</html>
